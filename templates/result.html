@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			NLP Project with Flask
+		</div>
+		<h2>Spam Detector For SMS Messages</h2>
+		
+	</div>
+	</header>
+	<p style="color:blue;font-size:20;"><b>The predicted result is </b></p>
+	<div class="results">
+
+    <h2 style="color:red;">{{prediction[0]}}</h2>
+    
+    </div>
+    
+</body>
+</html>

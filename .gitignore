@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+data
+*.pyc 
+predictor_requirements.txt
+EDA and model train.ipynb
+Dockerfile
